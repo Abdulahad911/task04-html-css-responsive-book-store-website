@@ -1,8 +1,6 @@
 * {
     margin: 0;
     padding: 0;
-    /* background-color: #090909;
-    color: #fff; */
 }
 
 .img {
@@ -162,13 +160,12 @@
 
 .ft1 img {}
 
-@media screen and (max-width: 1300px) {
+@media screen and (max-width: 1000px) {
     
         * {
             margin: 0;
             padding: 0;
-            background-color: #090909; 
-             color: #fff;
+           
         }
         
         .container1 {
@@ -220,16 +217,16 @@
         }
         
         .img2 img {
-            height: 90px;
-            width: 90px;
+            height: 120px;
+            width: 120px;
             border-radius: 7px;
             border: 1px solid black;
             opacity: 0.9;
         }
         
         .img2 img:hover {
-            height: 90px;
-            width: 90px;
+            height: 120px;
+            width: 120px;
             box-shadow: 5px 0 10px rgb(179, 163, 163);
             cursor: pointer;
         }
@@ -265,29 +262,31 @@
         
         .ft {
             background-color: lightgrey;
-            width: 900px;
-            border-radius: 5px;
-            height: 150px;
-            padding: auto;
-            margin: auto;
+            width: 300px;
+            border-radius: 7px;
+            height: 130px;
+            padding: 20px 0 0 0;
+            font-size: x-small;
         }
         
         .ft h2 {
             display: flex;
             justify-content: center;
+            align-items: center;
         }
         
         .ft div {
             display: flex;
             justify-content: center;
             align-items: center;
-            margin: 10px;
+            
         }
         
         .ft1 {
             display: flex;
             justify-content: space-evenly;
-            padding: 20px 0 0 0;
+            padding: 20px 0 0 3px;
+        
         }
         
         .ft1 a:hover {
@@ -295,6 +294,11 @@
             color: rgb(1, 1, 84);
             border-bottom: 2px solid rgb(17, 136, 210);
         }
-        
+        .ft1 img{
+            width: 100px;
+            height: 100px;
+            position: relative;
+            top: 30px;
+        }
     
 }
