@@ -1,6 +1,8 @@
 * {
     margin: 0;
     padding: 0;
+    /* background-color: #090909;
+    color: #fff; */
 }
 
 .img {
@@ -8,7 +10,10 @@
     justify-content: center;
     background-color: #c6c0c0;
 }
-
+.img img{
+    height:200px;
+    width:200px;
+}
 .navbar {
     position: sticky;
     top: 0;
@@ -84,7 +89,7 @@
     width: 300px;
     border-radius: 7px;
     border: 1px solid black;
-  opacity: 0.9;
+    opacity: 0.9;
 }
 
 .img2 img:hover {
@@ -113,41 +118,183 @@
     cursor: pointer;
 
 }
-.img2 h3{
+
+.img2 h3 {
     background-color: #6c6565;
     opacity: 0.9;
     color: #fff;
     position: relative;
     top: -160px;
 }
-.ft{
+
+.ft {
     background-color: lightgrey;
     width: 900px;
     border-radius: 5px;
-     height: 150px;
-     padding: auto;
-     margin: auto;
+    height: 150px;
+    padding: auto;
+    margin: auto;
 }
-.ft h2{
-display: flex;
-justify-content: center;
+
+.ft h2 {
+    display: flex;
+    justify-content: center;
 }
-.ft div{
+
+.ft div {
     display: flex;
     justify-content: center;
     align-items: center;
     margin: 10px;
 }
-.ft1{
+
+.ft1 {
     display: flex;
     justify-content: space-evenly;
     padding: 20px 0 0 0;
 }
-.ft1 a:hover{
+
+.ft1 a:hover {
     cursor: pointer;
     color: rgb(1, 1, 84);
     border-bottom: 2px solid rgb(17, 136, 210);
 }
-.ft1 img{
 
+.ft1 img {}
+
+@media screen and (max-width: 1300px) {
+    
+        * {
+            margin: 0;
+            padding: 0;
+            background-color: #090909; 
+             color: #fff;
+        }
+        
+        .container1 {
+            display: flex;
+            justify-content: space-evenly;
+            align-items: center;
+            height: 400px;
+            /* background-color: #1dbc55; 
+            width: 100%; */
+        }
+        
+        .box1 {
+            font-family: sans-serif;
+            font-size:xx-small;
+            height: 50px;
+            width: 50px;
+        }
+        
+        .box1 input {
+            height: 20px;
+            width: 80px;
+            border-radius: 7px;
+            font-size: x-small;
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: #fff;
+        }
+        
+        .img1 img {
+        
+            height: 90px;
+            width: 90px;
+        }
+        
+        .container2 {
+            height: 100px;
+            text-align: center;
+            padding: 30px;
+        }
+        
+        .container3 {
+            padding: 20px 0px 10px 40px;
+        }
+        
+        .box3 {
+            display: flex;
+            justify-content: space-evenly;
+            align-items: center;
+            padding: 20px;
+        }
+        
+        .img2 img {
+            height: 90px;
+            width: 90px;
+            border-radius: 7px;
+            border: 1px solid black;
+            opacity: 0.9;
+        }
+        
+        .img2 img:hover {
+            height: 90px;
+            width: 90px;
+            box-shadow: 5px 0 10px rgb(179, 163, 163);
+            cursor: pointer;
+        }
+        
+        .img2 button {
+            background-color: grey;
+            width: 60px;
+            height: 30px;
+            opacity: 1;
+            position: relative;
+            top: -40px;
+            right: -15px;
+            border-radius: 5px;
+            color: #fff;
+            z-index: inherit;
+        }
+        
+        .img2 button:hover {
+            background-color: #fff;
+            color: black;
+            cursor: pointer;
+        
+        }
+        
+        .img2 h3 {
+            background-color: #6c6565;
+            opacity: 0.9;
+            color: #fff;
+            position: relative;
+            top: -100px;
+            font-size: xx-small;
+        }
+        
+        .ft {
+            background-color: lightgrey;
+            width: 900px;
+            border-radius: 5px;
+            height: 150px;
+            padding: auto;
+            margin: auto;
+        }
+        
+        .ft h2 {
+            display: flex;
+            justify-content: center;
+        }
+        
+        .ft div {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin: 10px;
+        }
+        
+        .ft1 {
+            display: flex;
+            justify-content: space-evenly;
+            padding: 20px 0 0 0;
+        }
+        
+        .ft1 a:hover {
+            cursor: pointer;
+            color: rgb(1, 1, 84);
+            border-bottom: 2px solid rgb(17, 136, 210);
+        }
+        
+    
 }
