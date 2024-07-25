@@ -138,3 +138,16 @@ justify-content: center;
     align-items: center;
     margin: 10px;
 }
+.ft1{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 20px 0 0 0;
+}
+.ft1 a:hover{
+    cursor: pointer;
+    color: rgb(1, 1, 84);
+    border-bottom: 2px solid rgb(17, 136, 210);
+}
+.ft1 img{
+
+}
